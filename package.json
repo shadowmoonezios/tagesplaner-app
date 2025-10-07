@@ -10,7 +10,7 @@
     "client-install": "npm install --prefix client",
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Updated Author Name",
+  "author": "New Author Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
