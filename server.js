@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/tagesplaner';
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, serverSelectionTimeoutMS: 5000 })
 .then(() => console.log('Datenbank verbunden!'))
 .catch(err => console.error('Datenbankverbindungsfehler:', err));
 
