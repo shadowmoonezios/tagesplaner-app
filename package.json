@@ -1,7 +1,7 @@
 {
   "name": "tagesplaner-app",
   "version": "1.0.0",
-  "description": "Eine Anwendung zur Planung und Verwaltung täglicher Aufgaben.",
+  "description": "A web application for planning and managing daily tasks.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
